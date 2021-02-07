@@ -16,7 +16,7 @@ int main(){
     guessesLeft = 5;
     srand(time(0));
     randomNumber = (rand() % 100) + 1;
-    cout<<randomNumber<<endl;
+    
     cout<<"Range: ["<<lowerLimit<<", "<<upperLimit<<"], Number of guess left: "<<guessesLeft<<endl;
     cout<<"Your guess: ";
     cin>>guess;
